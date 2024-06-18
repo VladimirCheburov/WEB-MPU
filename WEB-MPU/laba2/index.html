@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheburov Laba2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs">
+        <nav><a href="index.html">Форма обратной связи</a></nav>
+        <nav><a href="entering.html">Вход</a></nav>
+    </div>
+    <form action="https://httpbin.org/post" method="post">
+        <h1>Форма обратной связи</h1>
+        ФИО
+        <input name="fio" type="text" required placeholder="Иванов Иван Иванович">
+        Email
+        <input name="Email" type="text" required placeholder="pochta@pochta.ru">
+        Откуда узнали о нас?
+        <div class="radio__block">
+            <input name="r1" id="radio1" type="radio" value="1">
+            <label for="radio1">От друзей</label><br>
+            <input name="r1" id="radio2" type="radio" value="2">
+            <label for="radio2">Из рекламы</label><br>
+            <input name="r1" id="radio3" type="radio" value="3">
+            <label for="radio3">Из соцсетей</label><br>
+            <input name="r1" id="radio4" type="radio" value="4">
+            <label for="radio4">По запросу в браузере</label><br>
+        </div>
+        Тип обращения
+        <select name="type" id="selector" required>
+            <option value="1">Жалоба</option>
+            <option value="2">Предложение</option>
+        </select>
+        Текст сообщения
+        <textarea name="text" id="textzp" cols="30" rows="30" required></textarea>
+        Вложения
+        <input name="max_size" type="hidden" value="30000">
+        <input name="file" id="" type="file" required>
+        <div>
+            Даю согласие на обработку персональных данных
+            <input name="approval" type="checkbox" value="yes" required>
+        </div>
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>

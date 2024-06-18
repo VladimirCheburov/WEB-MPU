@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheburov Laba2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs">
+        <nav><a href="index.html">Форма обратной связи</a></nav>
+        <nav><a href="entering.html">Вход</a></nav>
+    </div>
+    <form action="https://httpbin.org/post" method="post">
+        <h1>Форма аутентификации</h1>
+        Email
+        <input name="Email" type="text" required>
+        Пароль
+        <input name="password" type="password" required>
+        <div>
+            Запомнить меня
+            <input name="remember" type="checkbox" name="" value="yes" id="">
+        </div>
+        <input type="submit" value="Войти">
+
+    </form>
+
+</body>
+
+</html>

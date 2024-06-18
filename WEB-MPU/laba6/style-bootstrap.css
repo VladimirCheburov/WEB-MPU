@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Exo2';
+    src: url('Exo2-Italic-VariableFont_wght.ttf') format('truetype'),
+        url('Exo2-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Exo2', sans-serif;
+}
+
+.block__index {
+    height: 100vh;
+    align-items: left;
+    padding-left: 50px;
+}
+
+.block__index {
+    background-image: url(backgr1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block__index .block__name, .block__text {
+    color: white;
+}
+.block__index .block__name {
+    height: 50vh;
+}
+.block__index .block__text {
+    height: 50vh;
+}
+
+.block__index .block__name div {
+    font-weight: 900;
+}
+
+
+.block__contacts {
+    background-image: url(backgr2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.block__contacts .title {
+    color: white;
+}
+
+.block__contacts form {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.block__contacts .contact {
+    color: white;
+}
