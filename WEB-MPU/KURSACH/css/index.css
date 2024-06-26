@@ -1,0 +1,30 @@
+.selected-route {
+    /* background-color: #c0cfff; */
+    background-color: #ffe761;
+}
+.route {
+    line-height: 20px;
+}
+.logo {
+    width: 60px;
+}
+.brown-block {
+    background-color: #7955484d;
+    color: rgb(69, 5, 5);
+}
+.brown-block {
+    background-image: url('img/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff; /* Make text color white */;
+    text-align: left;
+    /* width: 80%; Increase width */
+    /* margin: 0 auto; */
+}
+footer {
+    background: black;
+}
+.hidden {
+    display: none;
+}
